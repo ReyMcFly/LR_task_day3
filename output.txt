@@ -1,4 +1,4 @@
-Virtual User Script started at: 10.04.2021 17:29:27
+Virtual User Script started at: 12.04.2021 1:30:17
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -14,7 +14,7 @@ vuser_init.c(15): Found resource "http://localhost:1080/webtours/images/webtours
 vuser_init.c(15): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 vuser_init.c(15): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 vuser_init.c(15): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-vuser_init.c(15): web_url("webtours") was successful, 10076 body bytes, 2373 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(15): web_url("webtours") was successful, 10080 body bytes, 2373 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 vuser_init.c(25): web_set_sockets_option started  	[MsgId: MMSG-26355]
 vuser_init.c(25): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 vuser_init.c(29): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
@@ -50,16 +50,6 @@ FirstCase.c(71): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-263
 FirstCase.c(71): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
 FirstCase.c(71): web_submit_data("reservations.pl_3") was successful, 3280 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Ending action FirstCase.
-Starting action SecondCase.
-SecondCase.c(6): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
-SecondCase.c(6): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
-SecondCase.c(6): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
-SecondCase.c(6): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-SecondCase.c(6): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-SecondCase.c(6): Resource "http://localhost:1080/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-SecondCase.c(6): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-SecondCase.c(6): web_url("welcome.pl") was successful, 2996 body bytes, 698 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Ending action SecondCase.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
@@ -68,6 +58,6 @@ vuser_end.c(6): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=h
 vuser_end.c(6): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 vuser_end.c(6): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
 vuser_end.c(6): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-vuser_end.c(6): web_url("SignOff Button") was successful, 2174 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(6): web_url("SignOff Button") was successful, 2170 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 Ending action vuser_end.
 Vuser Terminated.
