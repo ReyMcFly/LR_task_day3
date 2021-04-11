@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[FirstCase]
+SnapshotIndex=I1_FirstCase
+[SecondCase]
+SnapshotIndex=I1_SecondCase
+[vuser_end]
+SnapshotIndex=I1_vuser_end
