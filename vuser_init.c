@@ -1,7 +1,7 @@
 vuser_init()
 {
 	
-		web_reg_save_param_attrib(
+	web_reg_save_param_attrib(
 		"ParamName=userSession",
 		"TagName=input",
 		"Extract=value",
